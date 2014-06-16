@@ -10,6 +10,8 @@
 # collatz_read
 # ------------
 
+numCycles = [0] * 1000000
+
 def collatz_read (r) :
     """
     read two ints
@@ -35,32 +37,47 @@ def collatz_eval (i, j) :
     assert i > 0
     assert j > 0
 
+    global numCycles
+
     max = -1
-    
+
     if (i > j) :
+
      oldI = i
      oldJ = j
      j = oldI
      i = oldJ
 
-    if (j > i) and (i < (j // 2)) :
+    if (j > i) and (i <= (j // 2)) :
+
      i = (j // 2)
 
     for num in range (i, (j+1)) :
      n = num
      assert (n > 0)           
      c = 1
-        
+       
      while (n > 1) :
+
+      if ((n < 1000000) and (numCycles[n] != 0)) :
+       c += (numCycles[n] - 1)
+       break
+
       if (n % 2) == 0 :
-       n = (n / 2)
+
+       n = (n // 2)
        c += 1
 
       else :
-       n = (((3 * n) + 1) / 2)
+
+       n = (((3 * n) + 1) // 2)
        c += 2
-     
+      
      assert c > 0
+
+     if (numCycles[num] == 0) :
+      numCycles[num] = c
+
      if (c > max) :
       max = c
 
