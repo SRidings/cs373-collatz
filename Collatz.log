@@ -1,0 +1,77 @@
+commit de0800019a9b2c8f824c80a71ef626fc4bad2ecc
+Author: Stephen Ridings <sridings777@aol.com>
+Date:   Mon Jun 16 19:04:07 2014 -0500
+
+    Pydoc on Collatz.py as Collatz.html
+
+commit b1021d72160593afc751c8d2bd7957debc7b405a
+Author: Stephen Ridings <sridings777@aol.com>
+Date:   Mon Jun 16 15:18:53 2014 -0500
+
+    Final TestCollatz.out with 99% coverage
+
+commit 5cafc8f4e154100e6f1164a87d1cad59f7b41162
+Author: Stephen Ridings <sridings777@aol.com>
+Date:   Mon Jun 16 15:07:11 2014 -0500
+
+    Final RunCollatz.in and RunCollatz.out with corner cases
+
+commit d3cd2cd1dfd772fac7b4e942f890f132a66b20a4
+Author: Stephen Ridings <sridings777@aol.com>
+Date:   Mon Jun 16 14:50:34 2014 -0500
+
+    RunCollatz.in and RunCollatz.out with 1000 tests
+
+commit b5590da1380407bbc9effd1c89541282c432f737
+Author: Stephen Ridings <sridings777@aol.com>
+Date:   Mon Jun 16 14:48:31 2014 -0500
+
+    Final working Collatz.py with cache
+
+commit cab52d522c2162b6854cd826ee2be7d8826fdf1f
+Author: Stephen Ridings <sridings777@aol.com>
+Date:   Sun Jun 15 21:49:21 2014 -0500
+
+    Updated TestCollatz.py with 99% coverage
+
+commit 526fb73301fc50299bb061ec75f25186503e2125
+Author: Stephen Ridings <sridings777@aol.com>
+Date:   Sun Jun 15 21:13:20 2014 -0500
+
+    Seventh commit - Sphere accepted with cache
+
+commit e12d4ac2ab164260c2b12ea9ddd6e36f3c74f7d7
+Author: Stephen Ridings <sridings777@aol.com>
+Date:   Thu Jun 12 00:14:52 2014 -0500
+
+    Updated SphereCollatz.py with optimizations
+
+commit 5b6ebad0da4c8ee04f8463a691d9537ba36a9285
+Author: Stephen Ridings <sridings777@aol.com>
+Date:   Tue Jun 10 19:31:04 2014 -0500
+
+    Fourth commit TestCollatz.py with added tests
+
+commit dab412f282f3a5a1fb62e5cbc8f13f1a90d7ace9
+Author: Stephen Ridings <sridings777@aol.com>
+Date:   Tue Jun 10 18:28:13 2014 -0500
+
+    Second commit - working collatz_eval() in Collatz.py
+
+commit 66dfb48ffa760bc0a2e5db663e981308fee425c0
+Author: Stephen Ridings <sridings777@aol.com>
+Date:   Mon Jun 9 22:06:32 2014 -0500
+
+    Third commit - first version of SphereCollatz
+
+commit 84344184dd6b7fc17e17df860f34bbc49b50eb80
+Author: Stephen Ridings <sridings777@aol.com>
+Date:   Mon Jun 9 20:11:27 2014 -0500
+
+    First commit no added code
+
+commit 49197767167ae8f887924accb41f8c13d43bbcd6
+Author: Stephen Ridings <sridings777@aol.com>
+Date:   Mon Jun 9 19:23:18 2014 -0500
+
+    first commit
